@@ -208,7 +208,6 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   max-width: 320px;
-  max-height: 432px;
   background-position: center;
 }
 @media screen and (min-resolution: 192dpi) {
@@ -227,7 +226,7 @@ body {
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
-  max-width: 288px;
+  max-width: 200px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 48px;
@@ -257,7 +256,7 @@ body {
   display: none;
 }
 .section-two {
-  padding: 36px 0;
+  padding: 96px 0;
 }
 .features-section-two {
   color: #2e2f42;
@@ -265,8 +264,8 @@ body {
   font-weight: 700;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  margin-top: 36px;
   margin-bottom: 8px;
+  text-align: center;
 }
 .text-section-two {
   color: #434455;
@@ -275,8 +274,18 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   margin-bottom: 36px;
+  align-self: stretch;
+}
+.item-section-two {
+  margin-bottom: 72px;
+}
+.finish {
+  margin-bottom: 0;
 }
 /*========================mobile section three styles====================*/
+.container-section-three {
+  width: 296px;
+}
 .title-section-three {
   color: #2e2f42;
   text-align: center;
@@ -287,7 +296,10 @@ body {
   text-transform: capitalize;
   margin-bottom: 72px;
 }
-
+.section-three-div {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
 .name-section-three {
   color: #2e2f42;
   text-align: center;
@@ -308,7 +320,7 @@ body {
 }
 .section-three {
   background-color: #f4f4fd;
-  padding: 48px 0;
+  padding: 96px 0;
 }
 .item-section-three {
   background-color: #ffffff;
@@ -316,7 +328,6 @@ body {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   margin-bottom: 72px;
-  padding-bottom: 32px;
 }
 .social-media-icons-list {
   display: flex;
