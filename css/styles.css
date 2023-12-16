@@ -129,7 +129,6 @@ body {
     line-height: 1.2;
     letter-spacing: 0.02em;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    
   }
   .mobile-menu-link-address:hover,
   :focus {
@@ -821,7 +820,11 @@ body {
   :focus {
     color: #404bbf;
   }
-
+  .address-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
   .current {
     position: relative;
     color: #404bbf;
@@ -956,13 +959,17 @@ body {
   }
 
   .address-list {
-    display: flex;
     gap: 40px;
   }
   .page-header-container {
     align-items: center;
     padding-top: 0;
     padding-bottom: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  .link-address {
+    font-size: 16px;
   }
   /*========================desktop section one styles====================*/
   .section-one {
