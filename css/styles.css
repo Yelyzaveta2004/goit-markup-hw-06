@@ -44,7 +44,7 @@ body {
   overflow: hidden;
 }
 .container {
-  max-width: 367px;
+  max-width: 320px;
   padding-left: 16px;
   padding-right: 16px;
   margin-left: auto;
@@ -88,6 +88,7 @@ body {
     background-color: #e7e9fc;
     transform: translateX(100%);
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    padding: 72px 0;
   }
   .mobile-menu-wrapper.is-open {
     transform: translateX(0%);
@@ -104,10 +105,7 @@ body {
     position: relative;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
-  .mobile-menu-list {
-    margin-top: 72px;
-    margin-bottom: 128px;
-  }
+
   .mobile-menu-link:hover,
   :focus {
     color: #404bbf;
@@ -275,15 +273,19 @@ body {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  margin-bottom: 36px;
+
   align-self: stretch;
 }
-
+.item-section-two {
+  margin-bottom: 72px;
+}
 .finish {
   margin-bottom: 0;
 }
 /*========================mobile section three styles====================*/
-
+.container-section-three {
+  width: 296px;
+}
 .title-section-three {
   color: #2e2f42;
   text-align: center;
@@ -355,6 +357,9 @@ body {
   fill: #f4f4fd;
 }
 /*========================mobile section four styles====================*/
+.section-four {
+  padding: 96px 0;
+}
 .title-section-four {
   color: #2e2f42;
   text-align: center;
@@ -363,8 +368,6 @@ body {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  margin-bottom: 72px;
-  margin-top: 96px;
 }
 
 .name-section-four {
@@ -454,7 +457,7 @@ body {
 }
 .footer-one {
   background-color: #2e2f42;
-  padding: 100px 0;
+  padding: 96px 0;
 }
 
 .sosial-media-text {
