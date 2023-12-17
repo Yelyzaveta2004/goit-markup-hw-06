@@ -1062,13 +1062,13 @@ body {
   }
   /*========================desktop footer styles====================*/
   .footer-one {
-    display: flex;
   }
   .footer-three {
     margin-right: 120px;
   }
   .footer-two {
     gap: 0;
+    display: flex;
   }
   .social-media-icons-list-footer {
     margin-right: 86px;
