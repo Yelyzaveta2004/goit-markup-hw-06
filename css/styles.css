@@ -981,6 +981,8 @@ body {
   }
 
   .address-list {
+    display: flex;
+    flex-direction: row;
     gap: 40px;
   }
   .address-list-item {
@@ -1051,6 +1053,12 @@ body {
   .our-team-list {
     flex-wrap: nowrap;
   }
+  .container-section-three {
+    width: 1158px;
+  }
+  .title-section-three {
+    margin-bottom: 72px;
+  }
   /*========================desktop section four styles====================*/
   .our-portfolio-list {
     flex-wrap: wrap;
@@ -1061,14 +1069,15 @@ body {
     width: calc((100% - 48px) / 3);
   }
   /*========================desktop footer styles====================*/
-  .footer-one {
-  }
+
   .footer-three {
     margin-right: 120px;
   }
   .footer-two {
     gap: 0;
     display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
   }
   .social-media-icons-list-footer {
     margin-right: 86px;
