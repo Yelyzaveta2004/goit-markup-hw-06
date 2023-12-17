@@ -167,7 +167,7 @@ body {
     margin-bottom: 24px;
   }
   .mobile-menu-list {
-    margin-bottom: auto;
+    margin-bottom: 168px;
   }
 }
 /*========================mobile header styles====================*/
@@ -199,6 +199,7 @@ body {
 .page-header-container {
   display: flex;
   justify-content: space-between;
+  padding: 16px 0;
 }
 
 /*========================mobile section one styles====================*/
@@ -284,9 +285,7 @@ body {
 .item-section-two {
   margin-bottom: 72px;
 }
-.finish {
-  margin-bottom: 0;
-}
+
 /*========================mobile section three styles====================*/
 .container-section-three {
   width: 296px;
@@ -299,6 +298,7 @@ body {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  margin-bottom: 72px;
 }
 .section-three-div {
   padding-top: 32px;
@@ -325,6 +325,9 @@ body {
 .section-three {
   background-color: #f4f4fd;
   padding: 96px 0;
+}
+.finish {
+  margin-bottom: 0;
 }
 .item-section-three {
   background-color: #ffffff;
@@ -911,6 +914,9 @@ body {
   .container-section-three {
     width: 584px;
   }
+  .item-section-three {
+    margin-bottom: unset;
+  }
   /*========================tablet section four styles====================*/
   .our-portfolio-list {
     flex-wrap: wrap;
@@ -1021,10 +1027,14 @@ body {
     font-size: 56px;
     font-weight: 700;
     max-width: 496px;
+    margin: 0 auto;
   }
   /*========================desktop section two styles====================*/
   .section-two {
-    padding: 120px 15px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    padding-left: 15px;
+    padding-right: 15px;
   }
   .features-list {
     display: flex;
